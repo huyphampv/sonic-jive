@@ -18,6 +18,82 @@
   --third-color: #222;
 }
 
-h1 {
-  color: var(--black-color);
+.container {
+  max-width: 1252px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .bg {
+  display: block;
+  width: 100%;
+  position: absolute;
+} */
+
+body {
+  background-image: url("../images/banner-bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* Begin: Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 69px 0;
+  /* z-index: 1; */
+  /* position: relative; */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul a {
+  padding: 8px 15px;
+}
+
+.action-group ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 29px;
+}
+/* End: Header */
+
+/* Begin: Hero */
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner__img {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: -50%;
+  left: 0;
+}
+
+.hero-banner__tag {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  background-color: var(--yellow-color);
+  width: 117px;
+  height: 117px;
+  border-radius: 999px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* End: Hero */
