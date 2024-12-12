@@ -1,0 +1,23 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #707070;
+  --active-color: #7f6459;
+  --dark-color: #333;
+  --black-color: #000;
+  --primary-color: #909090;
+  --secondary-color: #0e1828;
+  --yellow-color: #faff00;
+  --sub-color: #484848;
+  --third-color: #222;
+}
+
+h1 {
+  color: var(--black-color);
+}
