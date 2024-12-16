@@ -96,4 +96,12 @@ nav ul a {
   justify-content: center;
   align-items: center;
 }
+.order {
+  background-color: #0e1828;
+  color: #fff;
+}
+.hero-banner__content_left {
+  display: block;
+  margin: 0;
+}
 /* End: Hero */
