@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sonicjive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/global.css" />
   </head>
   <body>
     <!-- <img src="./assets/images/banner-bg.svg" class="bg" alt="hero" /> -->
 
     <header class="container">
-      <a href="/">SONICJIVE</a>
+      <a href="/" class="logo">SONICJIVE</a>
       <nav>
         <ul>
           <li><a href="#">Product</a></li>
@@ -34,6 +40,7 @@
         </ul>
       </div>
     </header>
+
     <main class="container">
       <section class="hero-banner">
         <img
@@ -41,30 +48,47 @@
           src="./assets/images/banner-img.png"
           alt="hero"
         />
-        <div class="hero-banner__content_left">
-         <p>Immerse in Nature's Sounds with </p>
-         <h1 class="name">SonicJive Earbuds.</h1>
-         <p1>At SonicJive, we believe that technology and nature can coexist harmoniously. Our mission is to provide you with earbuds that offer exceptional sound quality while respecting our planet's delicate ecosystem. </p1>
-        <br><span>Price:</span>$45:00</span>  
-        <br><button class="order">Order Now</button>
-        </div>
-           <br>
-    
-          
-           <div class="hero-banner__content_right">
-            <text>Driver Size</text>
-           <br> <p1>This is the size of the speaker driver in each earbud, typically measured in millimeters (mm)</p1>
-            <div>
-              <text>Frequency Response</text>
-            <br>  <p1>The range of frequencies (measured in Hertz, Hz) that the earbuds can reproduce. </p1>
-            </div>
-            <text>Sensitivity</text>
-           <br> <p1>Sensitivity is measured in decibels (dB) and indicates how loud the earbuds.</p1>
-             <div>
-                 <div>
+
+        <div class="hero-banner__content">
+          <div class="hero-banner__content_left">
+            <p class="title">Immerse in Nature's Sounds with</p>
+            <h1 class="name">SonicJive Earbuds.</h1>
+            <p class="content">
+              At SonicJive, we believe that technology and nature can coexist
+              harmoniously. Our mission is to provide you with earbuds that
+              offer exceptional sound quality while respecting our planet's
+              delicate ecosystem.
+            </p>
+            <div class="price"><span>Price:</span><span>$45:00</span></div>
+            <button class="btn btn__lg btn--rounded">Order Now</button>
           </div>
+
+          <div class="hero-banner__content_right">
+            <div>
+              <h3>Driver Size</h3>
+              <p>
+                This is the size of the speaker driver in each earbud, typically
+                measured in millimeters (mm)
+              </p>
+            </div>
+            <div class="active">
+              <h3>Frequency Response</h3>
+              <p>
+                The range of frequencies (measured in Hertz, Hz) that the
+                earbuds can reproduce.
+              </p>
+            </div>
+            <div>
+              <h3>Sensitivity</h3>
+              <p>
+                Sensitivity is measured in decibels (dB) and indicates how loud
+                the earbuds.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-banner__tag"><b>9.5K</b><span>Products</span></div>
         </div>
-        <div class="hero-banner__tag">9.5K Products</div>
       </section>
     </main>
     <footer></footer>
