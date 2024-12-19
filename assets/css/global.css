@@ -256,6 +256,153 @@ nav ul a:hover {
 }
 /* End: Hero */
 
+/*Stats*/
+
+.stats_title {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 127px;
+  margin-top: 63px;
+}
+
+.stats_title > div {
+  display: flex;
+  width: 208px;
+  align-items: center;
+  gap: 16px;
+}
+.stats_title > div.active {
+  width: 264px;
+  height: 128px;
+  flex-shrink: 0;
+  padding: 35px 27px;
+  background-color: var(--white-color);
+  box-shadow: 0px 46px 80px 0px rgba(0, 0, 0, 0.12),
+    0px 17.719px 25.481px 0px rgba(0, 0, 0, 0.07),
+    0px 3.748px 6.519px 0px rgba(0, 0, 0, 0.05);
+}
+.stats_title--number {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  letter-spacing: -1.2px;
+}
+.stats_title--small {
+  gap: 16px;
+  color: #909090;
+  font-feature-settings: "liga" off;
+
+  /* Body md/Regular */
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  /* display: inline-block; */
+}
+
+/* Why choose us */
+.wcu {
+  margin-top: 183px;
+  /* align-items: center; */
+}
+
+.wcu_title h5 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 93%; /* 44.64px */
+  letter-spacing: 0.391px;
+}
+.wcu_title p {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 25.12px */
+  padding-top: 50px;
+}
+.wcu_content img {
+  width: 100%;
+  flex-shrink: 0;
+  align-items: center;
+  display: block;
+  position: relative;
+}
+
+.wcu_content {
+  margin-top: -142px;
+}
+
+.wcu_content-1 {
+  /* position: absolute;
+  display: inline-block;
+  top: 0; */
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.block-box {
+  margin-top: 150px;
+}
+.block-box--img {
+  display: block;
+  width: 75%;
+  flex-shrink: 0;
+  left: -250px;
+  position: absolute;
+  margin-top: -200px;
+}
+
+.block-box--rightimg {
+  display: block;
+  width: 75%;
+  left: 35%;
+  position: absolute;
+  margin-top: -200px;
+}
+
+.block-box--content h7 {
+  color: var(--secondary-color);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 52.8px */
+  font-weight: bold;
+}
+
+.block-box--content p {
+  color: var(--primary-color);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 25.12px */
+  margin-top: 56px;
+}
+
+.block-box--content button {
+  margin-top: 50px;
+  fill: var(--secondary-color);
+  filter: drop-shadow(0px 1.852px 3.148px rgba(0, 0, 0, 0.02))
+    drop-shadow(0px 8.148px 6.519px rgba(0, 0, 0, 0.03))
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.04))
+    drop-shadow(0px 38.519px 25.481px rgba(0, 0, 0, 0.04))
+    drop-shadow(0px 64.815px 46.852px rgba(0, 0, 0, 0.05))
+    drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07));
+}
+
 .dots {
   position: absolute;
   bottom: 30px;
