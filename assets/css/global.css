@@ -36,6 +36,10 @@ a {
   position: absolute;
 } */
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-image: url("../images/banner-bg.svg");
@@ -175,6 +179,12 @@ nav ul a:hover {
   cursor: pointer;
   opacity: 0.6;
 }
+
+/* @media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+} */
 /* End: Header */
 
 /* Begin: Hero */
