@@ -36,15 +36,12 @@ a {
   position: absolute;
 } */
 
-html {
-  overflow: hidden;
-}
-
 body {
   font-family: "Inter", sans-serif;
   background-image: url("../images/banner-bg.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
