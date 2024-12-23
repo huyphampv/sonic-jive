@@ -17,6 +17,8 @@
   --sub-color: #484848;
   --third-color: #222;
   --white-color: #fff;
+  --kin-color: #e7dbdd;
+  --xam-color: #f8f8f8;
 }
 
 .container {
@@ -77,6 +79,7 @@ body {
   display: flex;
   padding-top: 39px;
   padding-bottom: 39px;
+  margin-top: 150px;
 }
 
 .block-box > div {
@@ -84,8 +87,32 @@ body {
   /* overflow: hidden; */
 }
 
+/* .block-box__left > img {
+  display: block;
+  width: 165%;
+  position: absolute;
+  left: 50%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+} */
+
+/* .left {
+  display: block;
+  width: 165%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
 .block-box__right {
   flex-direction: row-reverse;
+  margin-top: 75px;
+}
+
+.block-box__left {
+  margin-top: 75px;
+  margin-bottom: 150px;
+  top: 35%;
 }
 
 .block-box__img {
@@ -100,6 +127,15 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* .block-box img1 {
+  display: block;
+  width: 165%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
 
 .block-box__content {
   padding-top: 35px;
@@ -116,6 +152,11 @@ body {
 
 .block-box__content p {
   margin-bottom: 50px;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%;
 }
 
 /* Begin: Header */
@@ -363,7 +404,7 @@ nav ul a:hover {
 .wcu_title p {
   color: var(--text-color);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -444,10 +485,106 @@ nav ul a:hover {
   margin-top: 17px;
 }
 
+/* review */
+
+.customer {
+  margin-top: 72px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.customer h5 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 52.8px */
+}
+
+.customer p {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 25.12px */
+  width: 604px;
+  margin-top: 55px;
+}
+
+.review {
+  height: 700px;
+  /* position: relative; */
+}
+
+.review-content {
+  gap: 31px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.cus-review {
+  border-radius: 6px;
+  background: var(--white-color);
+  box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.06);
+  /* width: 548px; */
+  height: 314px;
+  margin-top: 75px;
+  width: 38%;
+}
+.cus-review h6 {
+  color: var(--black-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-items: center;
+  margin-top: 16px;
+}
+
+.cus-review p {
+  color: var(--primary-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157%; /* 28.26px */
+  margin-top: 26px;
+}
+
+.cus-review img {
+  width: 72.8px;
+  height: 72.8px;
+  border-radius: 100px;
+  box-shadow: 4px 20px 40px 0px rgba(0, 0, 0, 0.2);
+  justify-items: center;
+  padding: 0;
+  /* margin: 20px 194px 224px; */
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+
+.review-content {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+}
+
+.review-left {
+}
 .dots {
-  position: absolute;
+  /* position: absolute; */
   bottom: 30px;
-  right: 0;
+  /* right: 0; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -465,6 +602,51 @@ nav ul a:hover {
   background-color: var(--black-color);
 }
 
+.subcribe {
+  width: 1170px;
+  height: 391px;
+  display: flex;
+  background-color: var(--xam-color);
+}
+
+.subcribe img {
+  width: 59%;
+  display: block;
+}
+.email {
+  display: flex;
+  gap: 30px;
+}
+
+.subcribe-content h6 {
+  color: var(--secondary-color);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 93%; /* 44.64px */
+  margin-bottom: 20.26px;
+  margin-top: 96px;
+  align-content: center;
+  justify-content: center;
+}
+
+.subcribe-content p {
+  font-family: "Inter", sans-serif;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 38.74px;
+}
+.sub-text {
+  width: 328px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color, var(--kin-color));
+  background: var(--white-color);
+}
 .footer-link {
   display: flex;
   gap: 24px;
