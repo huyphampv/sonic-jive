@@ -644,7 +644,7 @@ nav ul a:hover {
   width: 328px;
   height: 48px;
   border-radius: 5px;
-  border: 1px solid var(--border-color, var(--kin-color));
+  border: 1px solid var(var(--kin-color));
   background: var(--white-color);
 }
 .footer-link {
