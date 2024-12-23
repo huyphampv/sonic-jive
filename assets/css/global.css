@@ -581,6 +581,14 @@ nav ul a:hover {
 
 .review-left {
 }
+
+/* Begin: Intuitive */
+.intuitive-image img {
+  width: 165%;
+  top: 38%;
+}
+/* End: Intuitive */
+
 .dots {
   /* position: absolute; */
   bottom: 30px;
@@ -647,8 +655,36 @@ nav ul a:hover {
   border: 1px solid var(var(--kin-color));
   background: var(--white-color);
 }
+
+
+/* Begin : Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  width: 23.2%;
+}
+
+.footer-left__logo {
+  font-size: 23px;
+}
+
+.footer-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
 .footer-link {
   display: flex;
   gap: 24px;
   align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-right {
+    flex-direction: column;
+  }
+}
+/* End : Footer */
