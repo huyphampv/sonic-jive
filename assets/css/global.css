@@ -571,6 +571,7 @@ nav ul a:hover {
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 20px;
+  object-fit: cover;
 }
 
 .review-content {
